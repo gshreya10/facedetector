@@ -28,6 +28,7 @@
 
 .container {
   display: 'flex';
+  max-height: fit-content;
   justify-content : 'space-between';
   align-items: 'baseline';
 }
