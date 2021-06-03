@@ -31,7 +31,3 @@
   flex: auto;
   justify-content : 'space-between';
 }
-
-.nav {
-  align-self: flex-start;
-}

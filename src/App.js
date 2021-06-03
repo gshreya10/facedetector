@@ -205,7 +205,7 @@ class App extends Component {
         {
           <div className='container'>  
             <Logo/>
-            <Navigation className='nav' isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+            <Navigation style="align-self: flex-start" isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
           </div>
         }
         {
