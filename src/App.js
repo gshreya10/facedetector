@@ -205,7 +205,7 @@ class App extends Component {
         {
           <div className='container'>  
             <Logo/>
-            <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+            <Navigation className='nav' isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
           </div>
         }
         {
