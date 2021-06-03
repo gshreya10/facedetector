@@ -203,7 +203,7 @@ class App extends Component {
       <div className="App">
         <Particles className='particles' params={ParticleParams}/>
         {
-          <div style={{ display: 'flex', justifyContent: 'space-between'}}>  
+          <div style={{ display: 'flex', justifyContent: 'space-between', align-items: 'center' ;}}>  
             <Logo/>
             <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
           </div>
