@@ -202,7 +202,6 @@ class App extends Component {
     return (
       <div className="App">
         <Particles className='particles' params={ParticleParams}/> 
-        <Navigation className='nav' isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         <Logo/>
         {
           route === 'home'
@@ -217,6 +216,7 @@ class App extends Component {
             : <Register onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
           )
         }
+        <Navigation className='nav' isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
       </div>
     );
   }
