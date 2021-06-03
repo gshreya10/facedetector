@@ -1,6 +1,6 @@
 .but {
 	display: flex;
 	color: #0099ff;
-	justify-content: space-between;
+	justify-content: flex-end;
 	text-transform: uppercase;
 }
