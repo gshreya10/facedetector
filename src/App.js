@@ -202,8 +202,12 @@ class App extends Component {
     return (
       <div className="App">
         <Particles className='particles' params={ParticleParams}/>
-        <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
-        <Logo/>
+        {
+          <div style={{ display: 'flex'}}>  
+            <Logo style={{justifyContent: 'flex-start' }}/>
+            <Navigation style={{justifyContent: 'flex-end' }} isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+          </div>
+        }
         {
           route === 'home'
           ? <div>
