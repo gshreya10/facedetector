@@ -28,9 +28,10 @@
 
 .container {
   display: 'flex';
+  flex: auto;
   justify-content : 'space-between';
 }
 
 .nav {
-  align-self: center;
+  align-self: flex-start;
 }
