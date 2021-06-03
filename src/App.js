@@ -203,7 +203,7 @@ class App extends Component {
       <div className="App">
         <Particles className='particles' params={ParticleParams}/>
         {
-          <div className='nav'>  
+          <div className='container'>  
             <Logo/>
             <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
           </div>
