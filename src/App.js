@@ -201,13 +201,9 @@ class App extends Component {
     const { isSignedIn, box, imageURL, route, user } = this.state;
     return (
       <div className="App">
-        <Particles className='particles' params={ParticleParams}/>
-        {
-          <div className='container'>  
-            <Logo/>
-            <Navigation className='nav' isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
-          </div>
-        }
+        <Particles className='particles' params={ParticleParams}/> 
+        <Navigation className='nav' isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+        <Logo/>
         {
           route === 'home'
           ? <div>
