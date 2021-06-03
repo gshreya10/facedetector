@@ -28,7 +28,7 @@
 
 .container {
   display: 'flex';
-  height: 110;
+  height: 60px;
   justify-content : 'space-between';
   align-content: center;
   align-items: baseline;
