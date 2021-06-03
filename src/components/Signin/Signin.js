@@ -39,7 +39,7 @@ class Signin extends React.Component {
     const {onRouteChange} = this.props;
     return (
       // Signin form
-      <article className="br2 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
+      <article className="br2 ba b--white-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -47,7 +47,7 @@ class Signin extends React.Component {
               <div className="mt3">
                 <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
                 <input
-                  className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  className="pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
                   type="email"
                   name="email-address"
                   id="email-address"
@@ -56,7 +56,7 @@ class Signin extends React.Component {
               <div className="mv3">
                 <label className="db fw6 lh-copy f6" htmlFor="password">Password</label>
                 <input
-                  className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  className="b pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
                   type="password"
                   name="password"
                   id="password"
@@ -64,11 +64,11 @@ class Signin extends React.Component {
               </div>
             </fieldset>
             <div>
-              <input onClick={this.onSubmitSignin} className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="Sign in"/>
+              <input onClick={this.onSubmitSignin} className="b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib" type="submit" value="Sign in"/>
             </div>
             <div className="lh-copy mt3">
-              <p onClick={() => onRouteChange('register')} className="f6 link dim black db pointer">Register</p>
-            </div>
+              <p onClick={() => onRouteChange('register')} className="f6 link left db pointer grow white b ba hover-bg-black pa2">Register</p>
+            </div> 
           </div>
         </main>
       </article>
