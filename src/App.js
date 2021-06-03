@@ -203,10 +203,10 @@ class App extends Component {
       <div className="App">
         <Particles className='particles' params={ParticleParams}/>
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+            <Logo/>
         {
           route === 'home'
           ? <div>
-            <Logo/>
             <Rank name={user.name} entries={user.entries}/>
             <ImageLinkForm onInputChange={this.onInputChange} onButtonSubmit={this.onButtonSubmit}/>
             <FaceRecognition box={box} imageURL={imageURL}/>
