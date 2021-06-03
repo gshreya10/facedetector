@@ -43,20 +43,20 @@ class Signin extends React.Component {
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 fw6 ph0 mh0 left">Sign In</legend>
+              <legend className="f1 fw6 ph0 mh0 left white">Sign In</legend>
               <div className="mt3">
-                <label className="db fw6 lh-copy f6 left" htmlFor="email-address">Email</label>
+                <label className="db fw6 lh-copy f6 left white" htmlFor="email-address">Email</label>
                 <input
-                  className="left pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
+                  className="pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
                   type="email"
                   name="email-address"
                   id="email-address"
                   onChange={this.onEmailChange}/>
               </div>
               <div className="mv3">
-                <label className="left db fw6 lh-copy f6" htmlFor="password">Password</label>
+                <label className="db fw6 lh-copy f6 white" htmlFor="password">Password</label>
                 <input
-                  className="left b pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
+                  className="b pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
                   type="password"
                   name="password"
                   id="password"
@@ -64,7 +64,7 @@ class Signin extends React.Component {
               </div>
             </fieldset>
             <div>
-              <input onClick={this.onSubmitSignin} className="left b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib hover-bg-black hover-white" type="submit" value="Sign in"/>
+              <input onClick={this.onSubmitSignin} className="b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib hover-bg-black white" type="submit" value="Sign in"/>
             </div>
           </div>
         </main>

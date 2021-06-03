@@ -50,9 +50,9 @@ class Register extends React.Component {
         <main className="pa4 white-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 fw6 ph0 mh0">Register</legend>
+              <legend className="f1 fw6 ph0 mh0 white">Register</legend>
               <div className="mt3">
-                <label className="db fw6 lh-copy f6" htmlFor="name">Name</label>
+                <label className="db fw6 lh-copy f6 white" htmlFor="name">Name</label>
                 <input
                   className="pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
                   type="text"
@@ -62,7 +62,7 @@ class Register extends React.Component {
                 />
               </div>
               <div className="mt3">
-                <label className="left db fw6 lh-copy f6" htmlFor="email-address">Email</label>
+                <label className="db fw6 lh-copy f6 white" htmlFor="email-address">Email</label>
                 <input
                   className="left pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
                   type="email"
@@ -72,9 +72,9 @@ class Register extends React.Component {
                 />
               </div>
               <div className="mv3">
-                <label className="left db fw6 lh-copy f6" htmlFor="password">Password</label>
+                <label className="db fw6 lh-copy f6 white" htmlFor="password">Password</label>
                 <input
-                  className="left b pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
+                  className="b pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
                   type="password"
                   name="password"
                   id="password"
@@ -83,7 +83,7 @@ class Register extends React.Component {
               </div>
               </fieldset>
               <div>
-                <input onClick={this.onSubmitRegister} className="left b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib hover-bg-black hover-white" type="submit" value="Register"/>
+                <input onClick={this.onSubmitRegister} className="b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib hover-bg-black white" type="submit" value="Register"/>
               </div>
             </div>
           </main>
