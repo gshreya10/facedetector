@@ -216,7 +216,8 @@ class App extends Component {
             : <Register onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
           )
         }
-        <Navigation className='nav' isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+        <Navigation className='bottom' isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+        <p className='white'><small>-Shreya Gupta</small></p>
       </div>
     );
   }
