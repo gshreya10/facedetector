@@ -30,5 +30,8 @@
   display: 'flex';
   height: 60;
   justify-content : 'space-between';
-  align-items: top;
+}
+
+.nav {
+  align-self: top;
 }
