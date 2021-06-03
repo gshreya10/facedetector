@@ -10,7 +10,7 @@ const Logo = () => {
     <Tilt className="Tilt br1 shadow-1" options={{ max: 20 }} style={{ height: 80, width: 80 }}>
       <div className="Tilt-inner pa1">
         <img alt='Logo' src={logo}/>
-        <p className='white 10px'>Face Detector</p>
+        <p className='white'><small>Face Detector</small></p>
       </div>
     </Tilt>
   </div>);
