@@ -7,13 +7,10 @@ const Logo = () => {
   return (
   // Logo
   <div className='ma4 mt0'>
-    <Tilt className="Tilt br1 shadow-1" options={{ max: 20 }} style={{
-        height: 50,
-        width: 50
-      }}>
+    <Tilt className="Tilt br1 shadow-1" options={{ max: 20 }} style={{ height: 100, width: 100 }}>
       <div className="Tilt-inner pa1">
         <img alt='Logo' src={logo}/>
-        <p className='white f10'>Face Detection</p>
+        <p className='white f10'>Face Detector</p>
       </div>
     </Tilt>
   </div>);
