@@ -13,7 +13,7 @@ const Logo = () => {
       }}>
       <div className="Tilt-inner pa1">
         <img alt='Logo' src={logo}/>
-        <p className='white'>Face Detection</p>
+        <p className='white f10'>Face Detection</p>
       </div>
     </Tilt>
   </div>);
