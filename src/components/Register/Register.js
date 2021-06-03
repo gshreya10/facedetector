@@ -62,9 +62,9 @@ class Register extends React.Component {
                 />
               </div>
               <div className="mt3">
-                <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
+                <label className="left db fw6 lh-copy f6" htmlFor="email-address">Email</label>
                 <input
-                  className="pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
+                  className="left pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
                   type="email"
                   name="email-address"
                   id="email-address"
@@ -72,9 +72,9 @@ class Register extends React.Component {
                 />
               </div>
               <div className="mv3">
-                <label className="db fw6 lh-copy f6" htmlFor="password">Password</label>
+                <label className="left db fw6 lh-copy f6" htmlFor="password">Password</label>
                 <input
-                  className="b pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
+                  className="left b pa2 input-reset ba bg-transparent hover-bg-white hover-black w-100"
                   type="password"
                   name="password"
                   id="password"
@@ -83,7 +83,7 @@ class Register extends React.Component {
               </div>
               </fieldset>
               <div>
-                <input onClick={this.onSubmitRegister} className="b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib" type="submit" value="Register"/>
+                <input onClick={this.onSubmitRegister} className="left b ph3 pv2 input-reset ba b--white bg-transparent grow pointer f6 dib hover-bg-black hover-white" type="submit" value="Register"/>
               </div>
             </div>
           </main>
