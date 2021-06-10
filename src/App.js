@@ -1,11 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-
 // Packages
 import 'tachyons';
 import Particles from 'react-particles-js';
-
-
 // Components
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
@@ -52,8 +49,6 @@ class App extends Component {
     // Setup state object
     this.state = initialState;
   }
-
-
 
   // Calculate with response where the bounding_box would be located
   calculateFaceLocation = (data) => {
