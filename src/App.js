@@ -28,9 +28,6 @@ const ParticleParams = {
   }
 }
 
-
-
-
 // Initial state
 const initialState = {
   input: '',

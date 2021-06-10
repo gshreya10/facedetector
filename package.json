@@ -16,5 +16,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "https://facedetector-webapp.herokuapp.com/",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gshreya10/facedetector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gshreya10/facedetector/issues"
+  },
+  "homepage": "https://github.com/gshreya10/facedetector#readme"
 }
