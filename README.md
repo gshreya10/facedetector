@@ -1,10 +1,10 @@
 Face Detector Web App - https://facedetector-webapp.herokuapp.com/
 (prefferably use pc)
 
-Register -- 
+Register Page -- 
 ![Screenshot (157)](https://user-images.githubusercontent.com/55207479/121728507-fb3b2180-cb0a-11eb-9eda-3ddadc899994.png)
 
-SignIn -- 
+SignIn Page -- 
 ![Screenshot (158)](https://user-images.githubusercontent.com/55207479/121728526-042bf300-cb0b-11eb-8f4e-39823337019c.png)
 
 Landing Page --
