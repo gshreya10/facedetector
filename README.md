@@ -3,7 +3,9 @@ Website URL : https://facedetector-webapp.herokuapp.com/
 FACE DETECTOR is a web app that uses the Clarifai API to locate a face in a picture. CSS & HTML are used to design the front end. PostgresSQL is used to create database for signin/resgistration and to keep a record of number of entries per user.
 
 Backend -- https://github.com/gshreya10/facedetector-api
+
 <br>
+
 (prefferably use pc)
 
 Register Page -- 
