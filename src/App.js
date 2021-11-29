@@ -150,7 +150,7 @@ class App extends Component {
             : <Register onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
           )
         }
-        <p className='white' style={{position: 'fixed', bottom: '0', right: '5px'}}><small>-Shreya Gupta</small></p>
+        <p className='white' style={{position: 'fixed', bottom: '0', right: '5px'}}>&copy; gshreya10</p>
       </div>
     );
   }
